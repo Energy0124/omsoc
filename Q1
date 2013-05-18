@@ -1,0 +1,32 @@
+ For each stapler, the cost of insourcing production is
+$(0.75+0.4+1.1)
+=$2.25
+ For each stapler, the cost of outsourcing production is
+$(0.95+0.55+1.4)
+=$2.9
+Insource production have a lower cost than out sourcing production, therefore we would use insourcing production whenever possible.
+The time used for producing one stapler for location A 
+=0.03+0.02+0.05 hour
+=0.1 hour
+The time used for producing for one stapler for location B 
+=0.04+0.02+0.04 hour
+=0.1 hour
+The time used for producing for one stapler for location C 
+=0.02+0.03+0.01 hour
+=0.06 hour
+For each 0.6 hour location A can produce
+ 0.6 hours ÷ 0.1 hour per stapler
+=6 staplers
+For each 0.6 hour location B can produce
+ 0.6 hours ÷0.1 hour per stapler
+=6 staplers
+For each 0.6 hour location C can produce
+ 0.6 hours ÷ 0.06 hour per stapler
+=10 staplers
+In 0.6 hours, if three locations work together,  10+6+6 = 22 staplers can be produced.
+In each hour, "22÷0.6=36 2/3 staplers can be produced.
+In 400 hours,  36 2/3 ×400 = 14666 staplers (round down to the nearest integer) can be produced in the company.
+The rest is sent to sub-contractor for production since the insource production is full.
+18000-14666 = 3334 staplers need to be produced by sub-contractor.
+The total production cost is 14666 × $2.25 + 3334 × $2.9
+= $42670
